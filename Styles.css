@@ -1,0 +1,141 @@
+.principal-section {
+    background-color: #290088; 
+    padding: 20px 0; 
+}
+
+.container-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+img {
+    height: 50px; 
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+
+.principal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.principal-menu li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.principal-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.Download-button {
+    background-color: hsl(261, 81%, 48%);
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.Download-button:hover {
+    background-color: blue; 
+}
+
+.container {
+    position: relative;
+    display: flex;
+}
+
+.first-section, .second-section {
+    flex: 1;
+    background-color: #440dc4; 
+    padding: 196px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.second-section {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.cellphone {
+    position: absolute;
+    top: 13%;
+    left: 11%;
+    z-index: 1;
+    width: 26%;
+}
+
+.Fondo-papers {
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    z-index: 0;
+}
+
+
+
+.first-p{
+    color: white;
+}
+.first-section button {
+    margin-bottom: 20px;
+    color: rgb(230, 0, 255);
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+
+.Download-it-now {
+    background-color: white;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.Download-it-now:hover{
+    background-color: blue;
+}
+
+
+.Features {
+    background-color: white;
+    background: transparent;
+    color: #fff; 
+    border: 2px solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(255, 0, 212);
+}
