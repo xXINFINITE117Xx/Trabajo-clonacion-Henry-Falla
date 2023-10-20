@@ -80,13 +80,14 @@ img {
     top: 13%;
     left: 11%;
     z-index: 1;
-    width: 26%;
+    width: 35%;
 }
 
 .Fondo-papers {
     position: absolute;
     top: -2px;
-    left: 10px;
+    left: -1px;
+    height: 100%;
     z-index: 0;
 }
 
@@ -138,4 +139,28 @@ h2 {
     text-align: center;
     font-size: 4rem;
     color: rgb(255, 0, 212);
+}
+
+.laptop {
+    margin-left: 8%;
+    width: 43%;
+}
+
+h3 {
+    text-align: center;
+    color: #ff00fb;
+    font-size: 2rem;
+}
+
+.placeholder {
+    text-align: center;
+}
+
+h4 {
+    margin-left: 25px;
+    color: #ff00fb;
+}
+
+.marketing-menu {
+    color: #ff00fb;
 }
