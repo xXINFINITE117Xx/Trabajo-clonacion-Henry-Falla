@@ -32,6 +32,7 @@ img {
     padding: 0;
 }
 
+
 .principal-menu li {
     display: inline;
     margin-right: 20px; 
@@ -225,7 +226,9 @@ ul.marketing-menu {
     margin-top: 85px;
 }
 ul.marketing-menu-cards li {
+    list-style: none;
     margin-bottom: 10px;
+    margin-right: 45px;
 }
 
 ul.marketing-menu-cards a {
