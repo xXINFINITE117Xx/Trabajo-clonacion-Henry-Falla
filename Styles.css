@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 .principal-section {
     background-color: hwb(286 0% 79%); 
     padding: 20px 0; 
@@ -197,13 +202,13 @@ h5 {
 .card-paper {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px; /* Espacio entre las cartas */
+    margin-bottom: 20px; 
 }
 
 .container-cards {
-    width: 21%; /* Ancho de cada tarjeta */
+    width: 21%; 
     border: 5px solid #ccc;
-    border-radius: 10%; /* Borde de la tarjeta */
+    border-radius: 10%; 
     background-color: white;
     padding: 10px;
     text-align: center;
@@ -211,7 +216,7 @@ h5 {
 }
 
 .container-cards-cards img {
-    max-width: 100%; /* Imagen ajustada al ancho de la tarjeta */
+    max-width: 100%;
 }
 
 ul.marketing-menu {
@@ -286,11 +291,11 @@ h6{
 }
 
 .icons {
-    margin-left: auto; /* Esto empujará los íconos hacia la derecha */
+    margin-left: auto;
 }
 
 .icons a {
-    margin-left: 10px; /* Espacio entre los íconos */
+    margin-left: 10px;
     text-decoration: none;
     color: #333;
 }
