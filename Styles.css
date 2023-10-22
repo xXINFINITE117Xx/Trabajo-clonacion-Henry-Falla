@@ -1,5 +1,5 @@
 .principal-section {
-    background-color: #290088; 
+    background-color: hwb(286 0% 79%); 
     padding: 20px 0; 
 }
 
@@ -49,7 +49,7 @@ img {
 }
 
 .Download-button:hover {
-    background-color: blue; 
+    background-color: #c202bf; 
 }
 
 .container {
@@ -59,7 +59,7 @@ img {
 
 .first-section, .second-section {
     flex: 1;
-    background-color: #440dc4; 
+    background-color: hwb(286 0% 66%); 
     padding: 196px;
     box-sizing: border-box;
     position: relative;
@@ -120,7 +120,7 @@ h1 {
 }
 
 .Download-it-now:hover{
-    background-color: blue;
+    background-color: aqua;
 }
 
 
@@ -135,6 +135,10 @@ h1 {
     border-radius: 5px;
 }
 
+.Features:hover {
+    background-color: #ffffff;
+}
+
 h2 {
     text-align: center;
     font-size: 4rem;
@@ -147,20 +151,150 @@ h2 {
 }
 
 h3 {
-    text-align: center;
+    margin: 10px;
+    margin-left: 3%;
     color: #ff00fb;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .placeholder {
-    text-align: center;
+    margin: 22px;
+    width: 56%;
 }
+
 
 h4 {
     margin-left: 25px;
     color: #ff00fb;
+    font-size: 2rem;
 }
 
 .marketing-menu {
+    color: #ff00fb;
+}
+
+h5 {
+    text-align: center;
+    font-size:4rem ;
+    color: white;
+}
+
+.pricing {
+    text-align: center;
+    width: 60%;
+    margin: 298px;
+    font-size: 20px;
+    margin-top: -4%;
+    color: white;
+    margin-bottom: 51px;
+}
+
+
+.fourth-section {
+    background-color: hwb(286 0% 79%);
+}
+
+.card-paper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px; /* Espacio entre las cartas */
+}
+
+.container-cards {
+    width: 21%; /* Ancho de cada tarjeta */
+    border: 5px solid #ccc;
+    border-radius: 10%; /* Borde de la tarjeta */
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.container-cards-cards img {
+    max-width: 100%; /* Imagen ajustada al ancho de la tarjeta */
+}
+
+ul.marketing-menu {
+    padding: 0;
+    margin-left: 43px;
+    margin-top: 85px;
+}
+ul.marketing-menu-cards li {
+    margin-bottom: 10px;
+}
+
+ul.marketing-menu-cards a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contador {
+    display: inline-flex;
+    align-items: center;
+    font-size: 36px;
+    margin: 10px;
+  }
+  
+  .numero {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .texto {
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+.container-cards p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+h6{
+    margin: 12px;
+    font-size: 29px;
+}
+
+.lite {
+    color: #c202bf;
+}
+
+.suscribe {
+    height: 55px;
+    width: 141px;
+    background-color: hwb(286 0% 79%);
+    color: white;
+    border: 5px solid;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.suscribe:hover {
+    background-color: #ff00fb;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons-socials {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    margin-left: auto; /* Esto empujará los íconos hacia la derecha */
+}
+
+.icons a {
+    margin-left: 10px; /* Espacio entre los íconos */
+    text-decoration: none;
+    color: #333;
+}
+
+.autor {
     color: #ff00fb;
 }
