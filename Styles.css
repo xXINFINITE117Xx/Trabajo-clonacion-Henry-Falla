@@ -86,7 +86,7 @@ img {
     top: 13%;
     left: 11%;
     z-index: 1;
-    width: 35%;
+    width: 25%;
 }
 
 .Fondo-papers {
@@ -94,7 +94,7 @@ img {
     top: -2px;
     left: -1px;
     height: 100%;
-    z-index: 0;
+    z-index: 1;
 }
 
 
@@ -305,4 +305,184 @@ h6{
 
 .autor {
     color: #ff00fb;
+}
+
+/*480-920*/
+
+@media screen and (min-width: 480px) and (max-width: 920px) {
+    .principal-section {
+        padding: 10px 0; 
+    }
+
+    .container-navbar {
+        justify-content: center; 
+    }
+    img {
+        height: 30px; 
+    }
+
+    .navbar {
+        justify-content: center; 
+    }
+    .principal-menu {
+        text-align: center; 
+    }
+
+    .principal-menu li {
+        display: inline; 
+        margin-right: 20px; 
+        margin-bottom: 0; 
+    }
+
+    .Download-button {
+        font-size: 14px; 
+    }
+
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .first-section, .second-section {
+        padding: 48px; 
+    }
+
+    .second-section {
+        display: none;
+    }
+
+    .cellphone {
+        top: 20%; 
+        left: 5%; 
+        width: 50%; 
+    }
+
+    .Fondo-papers {
+        top: -10px; 
+        left: -5px; 
+        height: 110%; 
+        z-index: -1; 
+    }
+
+    .first-section button {
+        margin-bottom: 10px; 
+        font-size: 14px; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+
+    .Download-it-now {
+        font-size: 14px; 
+    }
+
+    .Features {
+        font-size: 14px; 
+    }
+
+    h2 {
+        font-size: 3rem; 
+    }
+
+    .laptop {
+        margin-left: 0; 
+        width: 100%; 
+        height: auto;
+    }
+
+    h3 {
+        font-size: 2.5rem; 
+        text-align: center;
+    }
+
+    .placeholder {
+        width: 100%; 
+    }
+
+    h4 {
+        font-size: 1.8rem; 
+        margin-left: 10px; 
+        text-align: center;
+    }
+
+    h5 {
+        text-align: center;
+        font-size: 4rem;
+        color: white;
+    }
+    
+    .pricing {
+        text-align: center;
+        width: 80%; 
+        margin: -82px auto; 
+        font-size: 18px;
+        margin-bottom: 20px; 
+    }
+
+    .container-cards {
+        width: 24%;
+        font-size: 0px;
+        margin-right: 7px;
+    }
+
+    .card-paper {
+        justify-content: center; 
+    }
+    
+    .container-cards img {
+        max-width: 80%; 
+    }
+
+    ul.marketing-menu {
+        margin-top: 30px; 
+    }
+
+    ul.marketing-menu-cards li {
+        margin-right: 10px; 
+    }
+
+    .contador {
+        font-size: 20px; 
+    }
+
+    .numero {
+        margin-right: 2px; 
+    }
+
+    .container-cards p {
+        margin-top: -31px; 
+    }
+
+    h6 {
+        margin: 10px; 
+        font-size: 26px; 
+    }
+    
+    .suscribe {
+        height: 45px; 
+        width: 120px; 
+        font-size: 16px; 
+        border-radius: 7px; 
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .icons-socials {
+        margin-top: 10px; 
+    }
+    
+    .icons {
+        margin-left: 0; 
+    }
+
+    .icons a {
+        margin: 0 5px; 
+    }
+    
 }
