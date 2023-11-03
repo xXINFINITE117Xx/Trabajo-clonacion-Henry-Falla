@@ -344,7 +344,9 @@ h6{
     }
 
     .first-section, .second-section {
-        padding: 48px; 
+        padding: 48px;
+        width: 100%;
+        text-align: center; 
     }
 
     .second-section {
