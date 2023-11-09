@@ -429,10 +429,10 @@ h6{
     .container-cards {
         width: 24%;
         font-size: 0px;
-        margin-right: 7px;
     }
 
     .card-paper {
+        gap: 10px;
         justify-content: center; 
     }
     
