@@ -593,6 +593,7 @@ h6{
     .container-cards {
         width: 24%;
         font-size: 0px;
+        border-radius: 17px;
     }
 
     .card-paper {
@@ -692,5 +693,9 @@ h6{
         padding: 48px;
         width: 100%;
         text-align: center; 
+    }
+
+    .second-section {
+        display: none;
     }
 }
