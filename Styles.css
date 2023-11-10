@@ -45,7 +45,7 @@ img {
 
 
 .Download-button {
-    background-color: hsl(261, 81%, 48%);
+    background: linear-gradient(to right, #7e44d5, #0b7bd5);
     color: #fff; 
     border: none;
     padding: 10px 20px;
@@ -311,35 +311,56 @@ h6{
     color: #ff00fb;
 }
 
-/*480-920*/
+/*352-480*/
 
-@media screen and (min-width: 480px) and (max-width: 920px) {
+@media screen and (min-width: 352px) and (max-width: 480px) {
     .principal-section {
         padding: 10px 0; 
     }
 
     .container-navbar {
-        justify-content: center; 
+        display: flex;
+        flex-direction: column;
     }
-    img {
-        height: 30px; 
+      .container-navbar img {
+        max-width: 100px; /* Tamaño máximo para el logo */
+        margin: 0 auto; /* Centra la imagen */
     }
 
-    .navbar {
-        justify-content: center; 
+      .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px; /* Espacio entre la imagen y la lista */
     }
+      .navbar ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+      .navbar li {
+        margin: 0;
+        padding: 0 10px; /* Espacio entre elementos de la lista */
+    }
+
     .principal-menu {
+        display: flex;
         text-align: center; 
     }
 
     .principal-menu li {
         display: inline; 
-        margin-right: 20px; 
+        margin-right: -7px; 
         margin-bottom: 0; 
     }
 
     .Download-button {
-        font-size: 14px; 
+        margin-top: 3px;
+        font-size: 12px;
+        margin-left: 8px;
+        padding: 5px 10px;
     }
 
     .container {
@@ -357,6 +378,147 @@ h6{
         display: none;
     }
 
+    .cellphone {
+        top: 20%; 
+        left: 5%; 
+        width: 50%; 
+    }
+
+    .Fondo-papers {
+        top: -10px; 
+        left: -5px; 
+        height: 110%; 
+        z-index: -1; 
+    }
+
+    .first-section button {
+        margin-bottom: 10px; 
+        font-size: 14px; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+
+    .Download-it-now {
+        font-size: 14px; 
+    }
+
+    .Features {
+        font-size: 14px; 
+    }
+
+    h2 {
+        font-size: 3rem; 
+    }
+
+    .laptop {
+        margin-left: 0; 
+        width: 100%; 
+        height: auto;
+    }
+
+    h3 {
+        font-size: 2.5rem; 
+        text-align: center;
+    }
+
+    .placeholder {
+        text-align: center;
+        margin: auto;
+        width: 100%; 
+    }
+
+    h4 {
+        font-size: 1.8rem; 
+        margin-left: 10px; 
+        text-align: center;
+    }
+
+    h5 {
+        text-align: center;
+        font-size: 4rem;
+        color: white;
+    }
+    
+    .pricing {
+        text-align: center;
+        width: 80%; 
+        margin: -82px auto; 
+        font-size: 18px;
+        margin-bottom: 20px; 
+    }
+
+    .container-cards {
+        width: auto;
+        margin: 35px;
+        font-size: 0px;
+    }
+
+    .card-paper {
+        display: block;
+        height: 69rem;
+    }
+    
+    .container-cards img {
+        max-width: 80%; 
+    }
+
+    ul.marketing-menu {
+        margin-top: 30px; 
+    }
+
+    ul.marketing-menu-cards li {
+        margin-right: 10px; 
+    }
+
+    .contador {
+        font-size: 20px; 
+    }
+
+    .numero {
+        margin-right: 2px; 
+    }
+
+    .container-cards p {
+        margin-top: -31px; 
+    }
+
+    h6 {
+        margin: 10px; 
+        font-size: 26px; 
+    }
+    
+    .suscribe {
+        height: 45px; 
+        width: 120px; 
+        font-size: 16px; 
+        border-radius: 7px; 
+    }
+
+    .last-section {
+        margin: 16%;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .icons-socials {
+        margin-top: 10px; 
+    }
+    
+    .icons {
+        margin-left: 0; 
+    }
+
+    .icons a {
+        margin: 0 5px; 
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 920px) {
     .cellphone {
         top: 20%; 
         left: 5%; 
@@ -493,4 +655,42 @@ h6{
         margin: 0 5px; 
     }
     
+    .principal-section {
+        padding: 10px 0; 
+    }
+
+    .container-navbar {
+        justify-content: center; 
+    }
+    img {
+        height: 30px; 
+    }
+
+    .navbar {
+        justify-content: center; 
+    }
+    .principal-menu {
+        text-align: center; 
+    }
+
+    .principal-menu li {
+        display: inline; 
+        margin-right: 20px; 
+        margin-bottom: 0; 
+    }
+
+    .Download-button {
+        font-size: 14px; 
+    }
+
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .first-section, .second-section {
+        padding: 48px;
+        width: 100%;
+        text-align: center; 
+    }
 }
